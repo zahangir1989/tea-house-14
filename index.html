@@ -4,9 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tea-house-14</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- google font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- fontawesome icom kit -->
+    <script src="https://kit.fontawesome.com/2de37f9531.js" crossorigin="anonymous"></script>
+    <!-- tailwin contomize -->
+    <!-- <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+        }
+      </style> -->
 </head>
 <body>
-    <h2>hello tea house</h2>
+    <!-- main container -->
+     <div class="max-w screen-xl mx-auto px-16 lg:px-28">
+      <header class="flex pt-10 mb-20">
+      <div>
+       <h1 class="text-4xl md:text-7x1">It's good tea time at The<br> Tea House</h1><br>
+        <p class="text-gray-500 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, iusto.</p><br>
+        <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold ">Explore More <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i></button>
+      </div>
+
+      <!-- --right side image container-- -->
+      <div class="relative">
+    <!-- image------ -->
+      <div>
+        <img class="w-full" src="images/banner.png" alt="">
+      </div>
+      <!-- --card-- -->
+     <div class="flex absolute items-center bg-white shadow-lg py-2 md:px-10 lg:py-4 rounded-lg top-28 md:to-80 md:left-32 lg:left-28">
+        <div>
+            <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+          </div>
+          <!-- text -->
+           <div class="ml-2">
+            <h2 class="lg:text-2xl font-bold ">5.00</h2>
+            <p class="text-gray-500 ">Trust Pilot Ratings</p>
+           </div>
+     </div>
+      </div>
+      </header>
+     </div>
     
 </body>
 </html>
